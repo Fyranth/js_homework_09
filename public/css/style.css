@@ -1,0 +1,42 @@
+#task02-chart {
+    width: 100%;
+    /*height: 300px;*/
+    
+}
+
+/*Задание №4*/
+#task04-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.task04-div-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.task04-div-cell {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: brown;
+    text-align: center;
+    vertical-align: middle;
+}
+.task04-p-hidden {
+    visibility: hidden;
+}
+.task04-cell-open {
+    background-color: green; 
+}
+
+/*Задание 5*/
+table.task05{text-decoration: none;border-collapse:collapse;width:100%;text-align:center;}
+table.task05 th{width:auto; font-weight:normal;font-size:14px; color:#ffffff;background-color:#354251;}
+table.task05 th:hover {cursor: pointer;}
+table.task05 td{font-size:13px;color:#000000;text-align:left;}
+table.task05 td,table.task04 th{white-space:pre-wrap;padding:10px 5px;line-height:13px;vertical-align: middle;border: 1px solid #354251;}	
+table.task05 tr:hover{background-color:#e0e0e0}
+table.task05 tr:hover td{color:#000000;cursor:default;}

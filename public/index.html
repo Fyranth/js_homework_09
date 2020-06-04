@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- подключим chart.js для графика -->
+        <script type="module" src="./chart/Chart.js"></script>
+        <script type="module" src="./js/hw09_module.js"></script>
+       
+        <!-- подключаем jasmine -->
+        <link rel="shortcut icon" type="image/png" href="./lib/jasmine-3.5.0/jasmine_favicon.png">
+        <link rel="stylesheet" type="text/css" href="./lib/jasmine-3.5.0/jasmine.css">
+
+        <script type="text/javascript" src="./lib/jasmine-3.5.0/jasmine.js"></script>
+        <script type="text/javascript" src="./lib/jasmine-3.5.0/jasmine-html.js"></script>
+        <script type="text/javascript" src="./lib/jasmine-3.5.0/boot.js"></script>
+        
+        <script type="text/javascript" src="./js/test.js"></script>
+        <script type="text/javascript" src="./spec/testSpec.js"></script>
+    </head>
+    <body>
+        <h5>Задание №1.</h5>
+        <p>Результат выведен в консоли</p>
+        <h5>Задание №2.</h5>
+        <canvas id="task02-chart"></canvas>
+        <h5>Задание №3.</h5>
+        <p>Результат выведен внизу</p>
+        <h5>Задание №4.</h5>
+        <div id="task04">
+            <div id="task04-variables">
+                <input id="task04-n" type="number" value="3" step="1">
+                <button type="button" id="task04-refresh">Обновить поле</button>
+            </div>
+            <div id="task04-container"></div>
+            <p>Осталось <span id="task04-cnt"></span> попытки</p>
+        </div>
+        <h5>Задание №5.</h5>
+        <div id="task05"></div>
+        <script type="text/javascript" src="./js/hw09_script.js"></script>
+    </body>
+</html>
